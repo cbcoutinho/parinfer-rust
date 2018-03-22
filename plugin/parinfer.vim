@@ -1,3 +1,8 @@
+if exists('g:loaded_parinfer_rust')
+	finish
+endif
+let g:loaded_parinfer_rust=1
+
 if !exists('g:parinfer_mode')
   let g:parinfer_mode = "smart"
 endif
